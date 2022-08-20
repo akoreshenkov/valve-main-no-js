@@ -24,6 +24,14 @@ html,body {
     -webkit-text-size-adjust: 100%;
 }
 
+details summary::-webkit-details-marker {
+    display: none
+}
+
+details > summary {
+    list-style: none;
+}
+
 input,button,textarea {font-family: inherit;}
 
 input::-ms-clear {display: none;}
