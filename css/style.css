@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -70,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: "League Spartan", sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -119,9 +120,9 @@ main .first .info {
   width: 45%;
 }
 main .first .info h2 {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 140%;
+  line-height: 120%;
   color: #F74843;
   margin-bottom: 20px;
   transition: 0.2s linear;
@@ -170,12 +171,12 @@ main ul {
 }
 main ul li {
   font-weight: bold;
-  font-size: 66px;
+  font-size: 72px;
   line-height: 100%;
   color: #F74843;
   letter-spacing: 1px;
   transition: 0.2s linear;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 main ul li:hover {
   color: #ffffff;
